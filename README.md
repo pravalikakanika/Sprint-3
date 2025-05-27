@@ -7,3 +7,5 @@
 | Pravalika Kanikarapu  |      |      |         | L1             | Rishabh Sharma       |
 | Pravalika Kanikarapu  |      |      |         | L2             | Piyush Upadhyay      |
 
+# Steps to Create Security Group for ScyllaDB
+
