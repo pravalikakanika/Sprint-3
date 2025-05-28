@@ -77,8 +77,8 @@ By completing this setup, you've successfully created a secure foundation for ru
 
 | **Link**                                                                 | **Description**                                      |
 |--------------------------------------------------------------------------|------------------------------------------------------|
-| [https://docs.scylladb.com/stable/architecture/security/) | Overview of security best practices and configurations for ScyllaDB.|
-| [https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) |Comprehensive guide to understanding and configuring AWS Security Groups |
+| https://docs.scylladb.com/stable/architecture/security/ | Overview of security best practices and configurations for ScyllaDB.|
+| https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html |Comprehensive guide to understanding and configuring AWS Security Groups |
 
 
 
