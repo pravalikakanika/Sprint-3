@@ -7,6 +7,15 @@
 | Pravalika Kanikarapu  |      |      |         | L1             | Rishabh Sharma       |
 | Pravalika Kanikarapu  |      |      |         | L2             | Piyush Upadhyay      |
 
+# Table of Contents
+
+- [Introduction](#introduction)
+- [Steps to Create Security Group for ScyllaDB](#Steps-to-Create-Security-Group-for-ScyllaDB)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
+
+
 
 # Introduction
 
@@ -28,7 +37,7 @@ Go to the AWS Management Console.
 - Click the **"Create security group"** button.
 
   
-   ![image](https://github.com/user-attachments/assets/561cb697-7bad-4ee1-98b0-e18322d93c81)
+![image](https://github.com/user-attachments/assets/51e5467e-d89c-4493-922a-6d2c3a019279)
 
 ### 4. **Configure Security Group Settings**
 
@@ -36,9 +45,9 @@ Go to the AWS Management Console.
 - **Description**: `Security group for the ScyllaDB instance`
 - **VPC**: Choose the correct VPC where your ScyllaDB instance will run.
 
-![image](https://github.com/user-attachments/assets/f25eb3fb-4a61-4dc6-8d89-e5b0c8ae8e56)
+![image](https://github.com/user-attachments/assets/e3bf2b6c-cdac-4376-9ba0-7d9457afd002)
 
-![image](https://github.com/user-attachments/assets/68f2447d-128b-4854-80a3-f1c87742eafc)
+![image](https://github.com/user-attachments/assets/23100396-bdba-4356-bc5d-8a5758eea5bf)
 
 ### 5. **Set Inbound Rules**
 
@@ -50,14 +59,14 @@ Go to the AWS Management Console.
 - Port Range: 9042 (for ScyllaDB) 22(for ssh)
 - Source: Specify the security group of the employee app , salary app
 
-![image](https://github.com/user-attachments/assets/f0d43f8f-6b9a-48f5-8a7c-95f45893b4d4)
+![image](https://github.com/user-attachments/assets/c91b1b06-0bcd-4c87-9aaf-6291b994635c)
 
 ### 6. **Set Outbound Rules**
 
 Click on the Outbound rules tab (defaults allow all traffic).
 Optionally modify outbound rules as needed.
 
-![image](https://github.com/user-attachments/assets/71f4500e-c740-4211-b6d9-cc043bccfeef)
+![image](https://github.com/user-attachments/assets/9ad63fd8-28c3-4515-b2b7-b37ead0ab72f)
 
 # Conclusion
 
@@ -79,7 +88,6 @@ By completing this setup, you've successfully created a secure foundation for ru
 |--------------------------------------------------------------------------|------------------------------------------------------|
 | https://docs.scylladb.com/stable/architecture/security/ | Overview of security best practices and configurations for ScyllaDB.|
 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html |Comprehensive guide to understanding and configuring AWS Security Groups |
-
 
 
 
